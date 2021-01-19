@@ -1,0 +1,35 @@
+.sidenav2{
+    display: none;
+}  
+.sidenav {
+  @include navside;
+    .links {
+        margin-top: 100px;
+        .focus a{
+            color: #b1b825 !important
+        }
+        a {
+            @include allA;
+       }
+    }
+}
+  
+.footer{
+  a{
+    letter-spacing: 20px;
+    color:#54303c;
+    :hover{
+      color: #393c11;
+    }
+  }
+}
+  .sidenav a:hover {
+    color: #f2f2f2;
+    font-size: 35px;
+    transition: 0.1s;
+  }
+  
+.margin2{
+  margin-left: 15%;
+}
+  
