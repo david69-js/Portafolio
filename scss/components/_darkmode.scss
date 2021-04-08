@@ -1,0 +1,73 @@
+body {
+    color: #0d1117;    
+    p{
+        font-weight: 700;
+    }
+    a{
+        font-size: 33px;
+        font-weight: 900;
+    }
+    .bal{
+        display: none;
+    }
+    .margin{
+        margin-left: 15px;
+        margin-right: 0px;
+    }
+    .card{
+        border: none;
+    }
+    
+}
+
+
+  body.dark  {
+
+    background-color: #0d1117 !important;
+    color: #6583af;
+    font-weight: 600;
+
+    .child:before {
+        background-color: rgba(52,73,94,0.75);
+    }
+    .btn-light{
+        background: #161b22;
+        color: #6583af;
+    }
+    .light{
+        display: none;
+    }
+    .bal{
+        display: initial;
+    }
+    
+    .sidenav{
+    background-color:#161b22;
+    }
+    .sidenav2{
+        background-color:#161b22;
+    }
+    .darkborder{
+        border:3px solid #b3b3b3 !important;
+    }
+    h2{
+        color: #969696 !important;
+    }
+    .footer{
+        a{
+            color: #969696 !important;
+        }
+    }
+    .contenedor figure .capa{
+        background: rgba(rgb(2, 2, 2), 0.8);
+        p{
+            color: #969696;
+        }
+    }
+
+  }
+  
+  body.dark img {
+    -webkit-filter: brightness(70%);
+    filter: brightness(70%);
+  }

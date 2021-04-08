@@ -1,0 +1,136 @@
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+
+    .hobies{
+      width: auto;
+      .hobie{
+          width: 10px;
+          margin: 15px 23x 0px 23px;
+      }
+  }
+  }
+  
+
+  @media  (min-width: 767px ){
+    #mySidenav{
+        width: 175px;
+    }
+    .row{
+      margin-left: 20px !important;
+
+      .contenedor figure .capa{
+        p{
+            font-size:15px;
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 768px ){
+    .cent2{
+      margin-left: 40px !important;
+    }
+    .cent{
+      margin-left: 10px !important;
+        img{
+          height: 160px
+        }
+      
+    }
+  }
+  @media screen and (min-width: 1024px ){
+
+    .cent2{
+      margin-left: 20px !important;
+    }
+    .cent{
+      margin-left: -30px !important;
+      .darkborder{
+        margin-left: 19px;
+        margin-right: -19px;
+        margin-bottom: 30px;
+        border: 3px solid  #54303c !important;
+
+        img{
+          height: 230px;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 767px ){
+    .darkborder{
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-bottom: 30px;
+    }
+  
+    .cent2{
+      justify-content: center !important;
+    }
+    .sidenav{
+      display: none !important;
+    }
+    .sidenav2{
+      display: block !important;
+    }
+    .card-text{
+      text-align: justify !important;
+    
+   }
+    .margin{
+      margin-top: 15%
+
+    }
+    .margin2{
+      margin-left: 0%;
+    }
+    .log{
+      margin-left: 0%;
+    }
+ 
+    .sidenav2 {
+        @include navside;
+        bottom: 0%;
+        top: unset;
+        .links2{
+            justify-content: center;
+            display: flex !important; 
+            margin-top: -18px;
+            a{
+                @include allA;
+                margin: 15px;
+                padding: 3px 0px 0px 0px;
+                font-size: 50px;
+            }
+            .focus a{
+                color: #c7c220 !important
+            }
+        }
+    }
+    #mySidenav2{
+        width: 100%;
+        height: 90px;
+        padding-top: 0px;
+    }
+  }
+  .subir{
+    color: rgb(81, 81, 81);
+    text-decoration: none;
+    margin-left: 100%;
+    :hover{
+      color: rgb(145, 145, 145);
+    }
+}
+  @media  (max-width: 650px ){
+    .margin{
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+  }
+
+    .log{
+      margin-left: 0%;
+    }
+  
+  }
